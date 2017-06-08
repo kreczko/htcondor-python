@@ -3,7 +3,7 @@ env:
     global:
         - REPO_DIR=htcondor
         # Commit from htcondor that you want to build
-        - BUILD_COMMIT=XX
+        - BUILD_COMMIT=V8_6_3
         - PLAT=x86_64
         - UNICODE_WIDTH=32
         - secure: "x"
