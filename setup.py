@@ -36,7 +36,7 @@ setup(
     maintainer="HTCondor Team",
     include_package_data=True,
     data_files=[("", ["LICENSE.md"])],
-    install_requires="numpy>=%s" % numpy_version,
+    install_requires=[],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
