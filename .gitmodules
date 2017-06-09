@@ -1,0 +1,6 @@
+[submodule "multibuild"]
+	path = multibuild
+	url = https://github.com/matthew-brett/multibuild.git
+[submodule "htcondor"]
+	path = htcondor
+	url = https://github.com/htcondor/htcondor.git
