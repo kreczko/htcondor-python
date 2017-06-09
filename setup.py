@@ -12,6 +12,10 @@ package_data = {}
 with io.open('README.md', encoding="utf-8") as f:
     long_description = f.read()
 
+if os.name == 'posix':
+    package_data['htc'] = ['*.so']
+else:
+    package_data['htc'] = ['*.pyd', '*.dll']
 
 class BinaryDistribution(Distribution):
     """ Forces BinaryDistribution. """

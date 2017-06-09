@@ -7,9 +7,9 @@ echo 'PYTHON_VERSION: '$PYTHON_VERSION
 # Begin build
 echo 'Begin build'
 cd htcondor
-mkdir _build; PREFIX=$PWD/_build
+mkdir -p _build; PREFIX=$PWD/_build
 
-cmake -DPROPER:BOOL=FALSE \
+cmake28 -DPROPER:BOOL=FALSE \
       -DCLIPPED:BOOL=TRUE \
       -DWITH_BLAHP:BOOL=FALSE \
       -DWITH_COREDUMPER:BOOL=FALSE \
